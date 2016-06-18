@@ -1,0 +1,47 @@
+body
+{
+  font-family: Helvetica ;
+  color: #333;
+  font-size: 16px;
+  font-weight: 1.6 ;
+}
+
+header
+{
+  font-size: 25px;
+  background-color: whitesmoke;
+  border-bottom: 1px color #ddd;
+
+}
+
+div.cartelera
+{
+  background-color: whitesmoke;
+  width: 300px;
+  height: 400px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 20px;
+  float: left;
+
+}
+
+div.fecha
+{
+  color: grey;
+}
+
+div.link-trailer
+{
+  font-size: 16px;
+
+}
+
+div.img
+{
+  width: 300px;
+  margin-top: 20px;
+
+}
+
+/*# sourceMappingURL=style.css.map */
