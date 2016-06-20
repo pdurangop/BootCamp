@@ -1,0 +1,50 @@
+header
+{
+  background-color: white ;
+  font-size: 28px;
+  color: #384047;
+
+  border-color: green;
+}
+body
+{
+  background-color: #edeff0;
+  font-family: Helvetica;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+p
+{
+  color: #b2bac2;
+}
+p.titulo
+{
+  color: #384047;
+}
+section
+{
+  background-color: white;
+}
+.container
+{
+  background-color: white;
+  width: 700px;
+}
+.resume
+{
+  background-color: #5fcf80;
+  border-color: #3ac162;
+  border-radius: 5px;
+  color: white;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.start
+{
+  background-color: #3f8abf;
+  border-color: #326e99;
+  border-radius: 5px;
+  color: white;
+  font-size: 15px;
+}
