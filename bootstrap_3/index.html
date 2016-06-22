@@ -10,7 +10,7 @@
 </head>
 <body>
   <nav class="navbar navbar-inverse">
-    <div class="container-fluid">
+    <div class="container">
       <div class="navbar-header">
 
         <a class="navbar-brand" href="#">mis<strong>finanzas</strong></a>
@@ -18,28 +18,79 @@
         <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-scale" aria-hidden="true"> Resumen</a>
 
         <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-th-list" aria-hidden="true"> Transacciones</a>
+
       </div>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Salir</a></li>
+        </ul>
     </div>
   </nav>
+
   <div class="container">
     <div class="row">
-      <div class="col-md-4">
-        <p>este es el div de 4 col</p>
+
+      <div class="col-md-3">
+        <div class="btn-group-vertical" role="group" aria-label="...">
+
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Buscar">
+            <span class="input-group-btn">
+              <button class="btn btn-default" type="button">
+                <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+              </button>
+            </span>
+          </div><!-- /input-group -->
+          <div class="divider"></div>
+          <button type="button" class="btn btn-default btn-lg btn-block" aria-label="Left Align">Ingresos
+          </button>
+          <button type="button" class="btn btn-default btn-lg btn-block">Gastos
+          </button>
+          <div class="divider"></div>
+          <button type="button" class="btn btn-default btn-lg btn-block">Restaurantes
+          </button>
+          <button type="button" class="btn btn-default btn-lg btn-block">Hogar
+          </button>
+          <button type="button" class="btn btn-default btn-lg btn-block">Diversión
+          </button>
+          <button type="button" class="btn btn-default btn-lg btn-block">Viajes
+          </button>
+          <button type="button" class="btn btn-default btn-lg btn-block">Carro
+          </button>
+        </div><!-- cierre del gurpo botones vertical -->
+
       </div>
-      <div class="col-md-8">
 
-        <button type="button" class="btn btn-primary btn-lg">
-          <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Nueva Transacción
-        </button>
+      <div class="col-md-9">
+        <nav>
+          <ul class="pager">
+            <li class="previous">
+              <button type="button" class="btn btn-primary">
+                <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Nueva Transacción
+              </button>
+            </li>
+            <li>
+              <div class="spacer"></div>
+            </li>
+            <li class="next">
+              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Agosto 2014 <span class="caret"></span>
+              </button>
+            </li>
+          </ul>
+        </nav>
 
-        <p>este es el div de 8 col</p>
+        <!--<div class="container">-->
+          <div class="page-header">
+          </div>
+        <!--</div>-->
 
-        <div class="page-header">
-        </div>
-
-        <div class="container">
           <table class="table">
-
+            <thead>
+              <tr>
+                <th><h2><strong>Puntaje</strong></h2></th>
+                <th><h2></h2></th>
+              </tr>
+            </thead>
             <tr>
               <th><h4><strong>Nombre</strong></h4></th>
               <th><h4><strong>Puntos</strong></h4></th>
@@ -53,7 +104,6 @@
               <th>4250</th>
             </tr>
           </table>
-        </div>
 
       </div> <!--cierra la columna-->
     </div> <!--cierra la fila -->
