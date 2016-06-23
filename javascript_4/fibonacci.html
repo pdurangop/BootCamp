@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FIBONACCI</title>
+  <meta charset="utf-8">
+</head>
+<body>
+
+  <script>
+    var sum=0;
+    function fibonacci(n)
+    {
+      if(n>=1)
+      {
+        sum= n + sum;
+
+        fibonacci(n-1);
+        return sum;
+
+      }
+      else (n==0)
+      {
+        return 0;
+      }
+    }
+
+    document.write(fibonacci(10));
+  </script>
+</body>
+</html>
