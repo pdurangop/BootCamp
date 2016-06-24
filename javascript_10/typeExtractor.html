@@ -8,9 +8,12 @@
   <script>
     function typeExtractor(arr)
     {
-      var number = [];
-      var string = [];
-      var boolean = [];
+      var result ={
+         number : [],
+         string : [],
+         boolean : []
+      };
+
 
       for (var i = 0; i <= arr.length - 1; i++)
       {
@@ -26,11 +29,8 @@
         {
           result.string.push(arr[i]);
         }
-        return
-        {
-          number.
-        };
       }
+      return "result = { <br> number: [ "+result.number+" ], <br> string: [ "+result.string+" ],<br> boolean: [ "+result.boolean+" ] <br> }";
     }
     document.write("El objeto es: "+typeExtractor([1, 2, "hello", 3, 4, "world", true, 5, false ]))
   </script>
