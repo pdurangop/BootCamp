@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PROMEDIAME</title>
+  <meta charset="utf-8">
+</head>
+<body>
+  <script>
+    function promediame(arr)
+    {
+      var sum =0;
+      for (var i = arr.length - 1; i >= 0; i--)
+      {
+        sum =sum + arr[i]
+      }
+      sum = sum/arr.length;
+      return  sum;
+    }
+    document.write("El promedio del arreglo es: " + promediame([1,2,3,4]))
+  </script>
+</body>
+</html>
